@@ -1,0 +1,91 @@
+/* header */
+.head {
+    height: 4vw;
+    width: 100%;
+    background-color: rgb(6, 6, 136);
+    gap: 2%;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+.head a {
+    width: 50%;
+    color: rgb(222, 221, 221);
+    font-size: large;
+    transition: all 0.5s ease;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 45% 34% 32% 51% / 59% 54% 25% 23%;
+    padding: 1vw;
+    display: inline-block;
+    position: relative; /* Позволяет псевдоэлементу располагаться позади */
+    z-index: 1;
+}
+
+/* Псевдоэлемент для логотипа */
+.head a.logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../src/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+/* Псевдоэлемент у всех ссылок */
+.head a:not(.logo)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../src/images/linksFON.jpg);
+    background-size: cover;
+    border-radius: 45% 34% 32% 51% / 59% 54% 25% 23%;
+    z-index: -1; /* Перемещает фон позади текста */
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+/* Эффект дрожания для всех ссылок при наведении */
+.head a:hover::after {
+    opacity: 1;
+    animation: shake 0.5s infinite;
+}
+.head a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .head a.active {
+    font-weight: bold;
+    color: blue;
+  }
+  
+/* Анимация дрожания */
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-0.2vw, 0.2vw); }
+    40% { transform: translate(0.2vw, -0.2vw); }
+    60% { transform: translate(-0.2vw, -0.2vw); }
+    80% { transform: translate(0.2vw, 0.2vw); }
+    100% { transform: translate(0, 0); }
+}
+
+.head a:hover{
+    color: rgb(176, 179, 255);
+}

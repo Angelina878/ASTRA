@@ -1,0 +1,65 @@
+.MoveContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    gap: 2vw;
+    height: 15vw;
+    margin: 5vw auto;
+
+}
+
+.MoveContainer_cards_wrapper {
+    display: flex; justify-content: center;
+    gap: 1vw;
+    overflow: hidden; /* Прячет карточки, которые выходят за пределы */
+    width: 68%; /* Обеспечиваем, чтобы показывалось только 3 карточки */
+    transition: transform 0.5s ease; /* Плавный сдвиг */
+}
+.MoveContainer_cards {
+    display: flex;
+    gap: 2vw;
+    transition: transform 0.3s ease-in-out;
+}
+.MoveCard {
+    width: 25%; /* или размер, соответствующий вашему дизайну */
+    box-sizing: border-box;
+    padding: 2vw 1vw;
+    flex: 0 0 30%; /* Каждая карточка теперь занимает 30% ширины контейнера */
+    border: 1px solid #3200fb;
+    border-radius: 1vw;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0 4vw 8vw rgba(0, 0, 0, 0.1);
+}
+
+.MoveCard img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.MoveCard p {
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    color: aliceblue;
+}
+
+.arrow {
+    padding: 1.6vw;
+    font-size: xxx-large;
+    border: 1px solid #3200fb;
+    border-radius: 1vw;
+    text-align: center;
+    height: 1vw;
+    background-color: transparent;
+    box-shadow: 0 4vw 8vw rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+

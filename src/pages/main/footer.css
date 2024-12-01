@@ -1,0 +1,81 @@
+.footer {
+    background-color: rgb(6, 6, 136);
+    width: 100%; /* Футер на всю ширину */
+    height: 5em; /* Фиксированная высота */
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    align-items: center;
+    justify-content: space-between; /* Равномерное распределение содержимого */
+  }
+
+.logo_div {
+    width: 20%; ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.hr_footer {
+    width: 0.1em;
+    background-color: rgb(147, 159, 169);
+    height: 3em;
+}
+.logo_footer {
+    width: 100%;
+    background-image: url(../src/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+}
+.links_f {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.links_f a{
+    color: rgb(203, 204, 219);
+    font-size: 1.1em;
+
+}
+.links_f a:hover{
+    color: rgb(159, 163, 216);
+}
+
+.networks{
+    width: 50%; gap: 2em;
+    display: flex; flex-direction: row;
+    justify-content: center;
+}
+.net {
+    cursor: pointer;
+    border-radius: 1em;
+    width: 2em; height: 2em;
+
+}
+.youtube {
+    background-image: url(../src/images/networks/youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.instagram {
+    background-image: url(../src/images/networks/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.facebook {
+    background-image: url(../src/images/networks/facebook.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.twitter {
+    background-image: url(../src/images/networks/twitter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

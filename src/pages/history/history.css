@@ -1,0 +1,82 @@
+.history {
+    background-color: #000823;  /* Темный фон */
+    color: #e0e0e0;  /* Светлый текст */
+    padding: 3rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .history-title {
+    color: #00aaff;  /* Синий для заголовка */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .history-content {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .history-subtitle {
+    color: #00aaff;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .founders-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .founders-list li {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .timeline {
+    margin-top: 2rem;
+  }
+  
+  .timeline-item {
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-item h3 {
+    color: #00aaff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #3403b9;
+    border-radius: 5px;
+  }
+  
+  .timeline-item:nth-child(even) {
+    background-color: #000000;
+    padding-left: 2rem;
+  }
+  
+  .timeline-item:nth-child(odd) {
+    background-color: #1a004f;
+    padding-right: 2rem;
+    text-align: right;
+  }
+  
+  .timeline-item h3, .timeline-item p {
+    color: #d4d4d4;
+  }
+  
