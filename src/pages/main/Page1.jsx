@@ -48,8 +48,8 @@ export default function Section1() {
         </div>
         <h2  className="our">Наши изобретения</h2>
         <div className="container_cards">
-            <Cards image="../src/images/neiropilot.webp" text="Нейропилот" />
-            <Cards image="../src/images/zenit.webp" text='Квантовый двигатель "Зенит"' />
+            <Cards image="../src/public/images/neiropilot.webp" text="Нейропилот" />
+            <Cards image="../src/public/images/zenit.webp" text='Квантовый двигатель "Зенит"' />
             <Cards image="../src/images/ecosfera.webp" text='Биомикрофлора "ЭкоСфера"' />
         </div>
         <div className="container_block">
