@@ -3,7 +3,7 @@ import './header.css';
 export default function Header({ active, onChange, user }) {
   const links = [
     { label: 'Изобретения', target: 'invention' },
-    { label: 'Наша история', target: 'history' },
+    { label: 'История', target: 'history' },
     { label: 'Статьи', target: 'articles' },
   ];
 

@@ -1,0 +1,155 @@
+@media (max-width: 812px) {
+    .head {
+        height: 18vw; /* Уменьшаем высоту */
+        width: 100%;
+        flex-wrap: wrap; /* Позволяет элементам шапки перетекать на новую строку, если они не помещаются */
+        gap: 2%; /* Меньше расстояние между элементами */
+    }
+    .head a{
+        width:16%;
+    }
+    .section1 {
+        margin: 0 auto;
+    }
+    /* Обновляем контейнер для карточек */
+    .container_cards {
+        display: flex;
+        flex-direction: column;  /* Карточки располагаются вертикально */
+        justify-content: center;
+        width: 100%;
+        margin: 2vw auto;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 90%; /* Карточки занимают 90% ширины экрана */
+        height: auto; /* Высота автоматически подстраивается */
+        margin: 2vw 0;
+        padding: 2vw;
+    }
+
+    .card img {
+        width: 100%;  /* Изображение заполняет всю ширину карточки */
+        height: auto;  /* Автоматическая высота */
+        border-radius: 1vw;
+    }
+
+    .card p {
+        font-size: 4vw; /* Уменьшаем шрифт для мобильных устройств */
+    }
+
+    /* Обновляем контейнер для длинной карточки */
+    .container_card_long {
+        width: 100%;
+        margin: 5vw auto; /* Увеличиваем отступ сверху и снизу */
+        padding: 4vw;
+    }
+
+    .card-long {
+        width: 80%;
+        font-size: 5vw;  /* Уменьшаем шрифт */
+        padding: 2vw;
+        height: 12em;  /* Ограничиваем высоту карточки */
+        overflow-y: auto;  /* Добавляем вертикальную прокрутку, если текст не помещается */
+        background-color: #000000;  /* Задаём цвет фона для длинной карточки */
+        border-radius: 2vw;
+    }
+
+    .card-long p {
+        margin: 0;  /* Убираем отступы */
+        word-wrap: break-word;  /* Разбиваем слова на новые строки, если они не помещаются */
+    }
+
+    /* Для заголовков секций */
+    h2.our {
+        font-size: 6vw;  /* Уменьшаем размер шрифта для заголовков */
+        margin-bottom: 2vw; /* Добавляем отступ снизу */
+        margin-top: 20vw;
+    }
+
+    /* Стили для блока с изображением и текстом */
+    .image_and_text_container {
+        width: 90%; /* 90% ширины экрана */
+        font-size: 4vw;
+        padding: 3vw 0;
+    }
+
+    /* Изображения блока */
+    .image_and_text_container img {
+        width: 100%; /* Изображение заполняет весь контейнер */
+        height: auto;
+    }
+
+    .big_text {
+        width: 90%;
+        font-size: 5vw;  /* Уменьшаем шрифт для текста */
+    }
+
+    /* Стиль для контейнера блока */
+    .block-container {
+        gap: 5vw;  /* Уменьшаем расстояние между элементами */
+        padding: 4vw 0; flex-direction: column; 
+    }
+    .big_text {
+        text-align: center;
+    }
+    .block-container h1{
+        font-size: xx-large;
+    }
+
+    /* Стиль кнопки */
+    .enter .btn {
+        padding: 4vw;
+        font-size: 4vw; /* Увеличиваем размер кнопки для мобильных */
+    }
+    .enter {
+        flex-direction: column;
+    }
+
+    .section1 {
+        padding-top: 0; /* Убираем верхний отступ в section1 */
+        gap: 3vw; margin: 0 auto; justify-content: center; text-align: center;
+    }
+
+    .welcome {
+        margin-top: 0vw; /* Устанавливаем небольшой отступ сверху для welcome */
+        margin-bottom: 3vw; /* Отступ снизу оставляем как есть */
+        display: flex;
+        justify-content: center;
+        text-align: center; 
+        align-items: center;
+        flex-direction: column;
+        gap: 3vw; /* Уменьшаем расстояние между кругами и заголовком */
+    }
+
+    /* Размер заголовка welcome */
+    .welcome h2 {
+        font-size: 5vw;  /* Размер шрифта для мобильных */
+        margin-bottom: 2vw;  /* Отступ снизу */
+    }
+
+    /* Уменьшаем размеры кругов */
+    .circle {
+        width: 7vw; /* Уменьшаем размер кругов */
+        height: 7vw;
+        margin: 1vw 0; /* Уменьшаем отступы для кругов */
+    }
+    .container_cards {
+        width: 90%;
+    }
+    .footer {
+        height: 18vw; /* Уменьшаем высоту */
+        width: 100%;
+        flex-wrap: nowrap; /* Позволяет элементам шапки перетекать на новую строку, если они не помещаются */
+        gap: 2%; flex-direction: column;
+    }
+    .links_f a{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+    .hr_footer {display: none;}
+    main{justify-content: center;}
+
+}

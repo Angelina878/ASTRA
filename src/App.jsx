@@ -6,6 +6,7 @@ import Invention from './pages/invention/Invention.jsx';
 import History from './pages/history/History.jsx';
 import Articles from './pages/articles/Articles.jsx';
 import Footer from './pages/main/Footer.jsx';
+import './pages/adaptation/adaptation.css'
 
 export default function App() {
   const [tab, setTab] = useState('section1'); // Состояние для текущей страницы

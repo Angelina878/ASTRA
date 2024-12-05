@@ -46,7 +46,7 @@ export default function Section1() {
             </p>
           </div>
         </div>
-        <h2>Наши изобретения</h2>
+        <h2  className="our">Наши изобретения</h2>
         <div className="container_cards">
             <Cards image="../src/images/neiropilot.webp" text="Нейропилот" />
             <Cards image="../src/images/zenit.webp" text='Квантовый двигатель "Зенит"' />
