@@ -48,16 +48,16 @@ export default function Section1() {
         </div>
         <h2  className="our">Наши изобретения</h2>
         <div className="container_cards">
-            <Cards image="../src/public/images/neiropilot.webp" text="Нейропилот" />
-            <Cards image="../src/public/images/zenit.webp" text='Квантовый двигатель "Зенит"' />
-            <Cards image="../src/images/ecosfera.webp" text='Биомикрофлора "ЭкоСфера"' />
+            <Cards image="/neiropilot.webp" text="Нейропилот" />
+            <Cards image="/zenit.webp" text='Квантовый двигатель "Зенит"' />
+            <Cards image="/ecosfera.webp" text='Биомикрофлора "ЭкоСфера"' />
         </div>
         <div className="container_block">
-          <Block text_big="Защита Земли от астероидов" image="../src/images/welcome.jpg" text_small='– В рамках программы "Щит" АСТРА успешно протестировала систему отклонения потенциально опасных астероидов, направив беспилотный корабль на столкновение с крупным объектом. '/>
+          <Block text_big="Защита Земли от астероидов" image="/welcome.jpg" text_small='– В рамках программы "Щит" АСТРА успешно протестировала систему отклонения потенциально опасных астероидов, направив беспилотный корабль на столкновение с крупным объектом. '/>
         </div>
         {/* next block */}
         <h2>Деятельность компании</h2>
-        <CardMove image1="../src/images/welcome.jpg" text1="Межпланетные миссии" text2="Программа колонизации Луны"
+        <CardMove image1="/welcome.jpg" text1="Межпланетные миссии" text2="Программа колонизации Луны"
         text3="Экзопланетные исследования" text4="Технологии гиперскоростных перелётов" text5="Защита Земли от астероидов" text6="Космическая медицина и биология"/>
         <div className="enter">
           <div className="text_enter">

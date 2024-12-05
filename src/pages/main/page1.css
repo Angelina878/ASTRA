@@ -20,7 +20,7 @@
     gap: 15vw;
 }
 .welcome h2{
-    background-image: url(../src/images/welcome.jpg);
+    background-image: url(/welcome.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,7 +34,7 @@
     width: 2%;
     height: 2vw;
     border-radius: 50%;
-    background-image: url(../src/images/welcome.jpg);
+    background-image: url(/welcome.jpg);
 
 }
 

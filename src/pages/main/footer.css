@@ -24,7 +24,7 @@
 }
 .logo_footer {
     width: 100%;
-    background-image: url(../src/images/logo.png);
+    background-image: url(/logo.png);
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: center;
@@ -56,25 +56,25 @@
 
 }
 .youtube {
-    background-image: url(../src/images/networks/youtube.png);
+    background-image: url(/youtube.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .instagram {
-    background-image: url(../src/images/networks/instagram.png);
+    background-image: url(/instagram.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .facebook {
-    background-image: url(../src/images/networks/facebook.webp);
+    background-image: url(/facebook.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .twitter {
-    background-image: url(../src/images/networks/twitter.png);
+    background-image: url(/twitter.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
